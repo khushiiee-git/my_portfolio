@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KHUSHI SRIVASTAVA | Aspiring Product Manager</title>
+  <meta name="description" content="Portfolio of Khushi Srivastava — aspiring Product Manager skilled in roadmapping, analytics, user research, and cross-functional collaboration." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- ═══════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════ -->
+  <header id="navbar" role="banner">
+    <span class="nav-logo">KHUSHI SRIVASTAVA</span>
+
+    <nav id="nav-menu" role="navigation" aria-label="Main navigation">
+      <ul class="nav-links">
+        <li><a href="#home"       class="nav-link" data-section="home">Home</a></li>
+        <li><a href="#skills"     class="nav-link" data-section="skills">Skills</a></li>
+        <li><a href="#projects"   class="nav-link" data-section="projects">Projects</a></li>
+        <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+        <li><a href="#education"  class="nav-link" data-section="education">Education</a></li>
+        <li><a href="#contact"    class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ═══════════════════════════════════════
+         HERO
+    ════════════════════════════════════════ -->
+    <section id="home" aria-labelledby="hero-name">
+      <div class="container">
+        <div class="hero-layout">
+
+          <div class="hero-text">
+            <h1 class="hero-name" id="hero-name">KHUSHI SRIVASTAVA</h1>
+
+            <p class="hero-bio">
+              I am an aspiring Product Manager passionate about transforming real-world challenges into simple, intuitive, and impactful solutions.
+              With a foundation in engineering, I bring a deep understanding of how technology works behind the scenes, allowing me to make informed,
+              data-driven product decisions. I enjoy exploring user problems, uncovering insights, and creating experiences that feel natural,
+              effective, and effortless. My goal is to build products that not only solve problems but also enhance the way people interact with
+              technology in their everyday lives.
+            </p>
+
+            <div class="hero-meta">
+              <span>
+                <!-- location icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7c0 4.9-7 13-7 13S5 13.9 5 9a7 7 0 0 1 7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+                Hyderabad, Telangana
+              </span>
+            </div>
+
+            <div class="hero-actions">
+              <a href="#contact" class="btn-dark">
+                <!-- send icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                Get in touch
+              </a>
+              <a href="https://drive.google.com/file/d/15-VUkaKS5ax1bLocvADAu9RlTHPlLcxG/view?usp=sharing"
+                 target="_blank" rel="noopener noreferrer" class="btn-accent">
+                <!-- doc icon -->
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                Resume
+              </a>
+            </div>
+
+            <div class="hero-socials" role="list" aria-label="Social links">
+              <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/in/khushi-srivastava-a5947b2a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                 target="_blank" rel="noopener noreferrer"
+                 aria-label="LinkedIn profile" role="listitem">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              </a>
+              <!-- GitHub -->
+              <a href="https://github.com/khushiiee-git"
+                 target="_blank" rel="noopener noreferrer"
+                 aria-label="GitHub profile" role="listitem">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+              <!-- Email -->
+              <a href="mailto:khushii0711@gmail.com"
+                 aria-label="Send email" role="listitem">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-photo-col">
+            <div class="hero-photo-wrap">
+              <img src="WhatsApp Image 2026-05-26 at 1.01.14 PM.jpeg"
+                   alt="Khushi Srivastava — profile photo" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         SKILLS
+    ════════════════════════════════════════ -->
+    <section id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 class="section-title" id="skills-title">Skills</h2>
+
+        <div class="skills-categories">
+
+          <div class="fade-up">
+            <p class="skill-cat-label">PM Approach</p>
+            <div class="skill-badges">
+              <span class="skill-badge">Agile</span>
+              <span class="skill-badge">Scrum</span>
+              <span class="skill-badge">Jira</span>
+              <span class="skill-badge">Product Roadmapping</span>
+              <span class="skill-badge">Requirement Gathering</span>
+              <span class="skill-badge">User Story Writing</span>
+              <span class="skill-badge">PRD Writing</span>
+              <span class="skill-badge">A/B Testing</span>
+              <span class="skill-badge">Stakeholder Management</span>
+              <span class="skill-badge">Prioritization</span>
+            </div>
+          </div>
+
+          <div class="fade-up">
+            <p class="skill-cat-label">Data &amp; Analytics</p>
+            <div class="skill-badges">
+              <span class="skill-badge">Google Analytics</span>
+              <span class="skill-badge">Tableau</span>
+              <span class="skill-badge">MySQL</span>
+              <span class="skill-badge">Excel</span>
+              <span class="skill-badge">KPI Tracking</span>
+              <span class="skill-badge">Funnel Analysis</span>
+              <span class="skill-badge">Data-Driven Decision Making</span>
+              <span class="skill-badge">User Behaviour Analysis</span>
+            </div>
+          </div>
+
+          <div class="fade-up">
+            <p class="skill-cat-label">Design &amp; Development</p>
+            <div class="skill-badges">
+              <span class="skill-badge">Figma</span>
+              <span class="skill-badge">Wireframing</span>
+              <span class="skill-badge">HTML</span>
+              <span class="skill-badge">CSS</span>
+              <span class="skill-badge">JavaScript</span>
+              <span class="skill-badge">React</span>
+              <span class="skill-badge">Responsive UI</span>
+              <span class="skill-badge">UX Understanding</span>
+            </div>
+          </div>
+
+          <div class="fade-up">
+            <p class="skill-cat-label">AI-Enabled Approach</p>
+            <div class="skill-badges">
+              <span class="skill-badge">Claude</span>
+              <span class="skill-badge">Kiro</span>
+              <span class="skill-badge">Lovable</span>
+              <span class="skill-badge">Cursor</span>
+              <span class="skill-badge">Prompt Engineering</span>
+              <span class="skill-badge">AI-Assisted PRD Writing</span>
+              <span class="skill-badge">LLM-Powered Feature Design</span>
+              <span class="skill-badge">AI Calling Agent</span>
+              <span class="skill-badge">Chatbot Product Design</span>
+            </div>
+          </div>
+
+          <div class="fade-up">
+            <p class="skill-cat-label">Soft Skills</p>
+            <div class="skill-badges">
+              <span class="skill-badge">Communication</span>
+              <span class="skill-badge">Cross-Functional Collaboration</span>
+              <span class="skill-badge">Team Leadership</span>
+              <span class="skill-badge">Problem Solving</span>
+              <span class="skill-badge">Creative Thinking</span>
+              <span class="skill-badge">Empathy</span>
+              <span class="skill-badge">Project Management</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         PROJECTS
+    ════════════════════════════════════════ -->
+    <section id="projects" aria-labelledby="projects-title">
+      <div class="container container--wide">
+        <h2 class="section-title" id="projects-title">Projects</h2>
+
+        <div class="filter-row" role="group" aria-label="Filter projects by type">
+          <button class="filter-btn" data-filter="all"              aria-pressed="true">All Projects</button>
+          <button class="filter-btn" data-filter="product-analysis" aria-pressed="false">Product Analysis</button>
+          <button class="filter-btn" data-filter="feature-design"   aria-pressed="false">Feature Design</button>
+        </div>
+
+        <div class="projects-grid" id="projects-grid">
+          <!-- Cards injected by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         EXPERIENCE
+    ════════════════════════════════════════ -->
+    <section id="experience" aria-labelledby="exp-title">
+      <div class="container">
+        <h2 class="section-title" id="exp-title">Experience</h2>
+
+        <div class="exp-list" id="exp-list">
+          <!-- Rendered by script.js -->
+        </div>
+
+        <a href="#contact" class="see-more-link">
+          Open to new opportunities &rarr;
+        </a>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         EDUCATION
+    ════════════════════════════════════════ -->
+    <section id="education" aria-labelledby="edu-title">
+      <div class="container">
+        <h2 class="section-title" id="edu-title">Education</h2>
+
+        <div class="edu-list" id="edu-list">
+          <!-- Rendered by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         CONTACT
+    ════════════════════════════════════════ -->
+    <section id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 class="section-title" id="contact-title">Get in touch</h2>
+
+        <div class="contact-grid">
+
+          <!-- Left: direct contact actions -->
+          <div class="fade-up">
+            <p class="contact-intro">
+              I am actively looking for APM and PM opportunities. Whether you'd like to discuss a role,
+              explore a collaboration, or simply connect — I'd be glad to hear from you.
+            </p>
+
+            <div class="contact-action-btns">
+              <!-- Gmail mailto button -->
+              <a href="mailto:khushii0711@gmail.com" class="contact-action-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                <div class="btn-label">
+                  <strong>Send me an Email</strong>
+                  <span>khushii0711@gmail.com</span>
+                </div>
+              </a>
+
+              <!-- LinkedIn button -->
+              <a href="https://www.linkedin.com/in/khushi-srivastava-a5947b2a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                 target="_blank" rel="noopener noreferrer" class="contact-action-btn">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                <div class="btn-label">
+                  <strong>Connect on LinkedIn</strong>
+                  <span>linkedin.com/in/khushi-srivastava</span>
+                </div>
+              </a>
+
+              <!-- Resume download -->
+              <a href="https://drive.google.com/file/d/15-VUkaKS5ax1bLocvADAu9RlTHPlLcxG/view?usp=sharing"
+                 target="_blank" rel="noopener noreferrer" class="contact-action-btn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                <div class="btn-label">
+                  <strong>View My Resume</strong>
+                  <span>Opens in Google Drive</span>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: contact form -->
+          <form class="contact-form fade-up" id="contact-form" novalidate aria-label="Contact form">
+            <div class="form-group">
+              <label for="cf-name">Full Name *</label>
+              <input type="text" id="cf-name" name="name" required autocomplete="name" placeholder="Your full name" />
+              <span class="field-error" role="alert" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label for="cf-email">Email Address *</label>
+              <input type="email" id="cf-email" name="email" required autocomplete="email" placeholder="your@email.com" />
+              <span class="field-error" role="alert" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label for="cf-org">Organisation / Company</label>
+              <input type="text" id="cf-org" name="organisation" placeholder="Where are you from?" />
+              <span class="field-error" role="alert" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label for="cf-purpose">Purpose of Reaching Out *</label>
+              <select id="cf-purpose" name="purpose" required>
+                <option value="" disabled selected>Select a reason</option>
+                <option value="Job Opportunity">Job / Internship Opportunity</option>
+                <option value="Collaboration">Collaboration</option>
+                <option value="Networking">Networking</option>
+                <option value="Feedback">Feedback on Portfolio</option>
+                <option value="Other">Other</option>
+              </select>
+              <span class="field-error" role="alert" aria-live="polite"></span>
+            </div>
+            <div class="form-group">
+              <label for="cf-message">Message *</label>
+              <textarea id="cf-message" name="message" required rows="4" placeholder="Share any additional details…"></textarea>
+              <span class="field-error" role="alert" aria-live="polite"></span>
+            </div>
+            <button type="submit" id="submit-btn">Send Message</button>
+            <div id="form-status" role="status" aria-live="polite"></div>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer role="contentinfo">
+    <div class="container">
+      <p class="footer-quote">"Great products don't just solve problems — they change the way people live."</p>
+      <p>© 2025 KHUSHI SRIVASTAVA &nbsp;·&nbsp; Aspiring Product Manager &nbsp;·&nbsp; Hyderabad, Telangana</p>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════
+       CHAT WIDGET
+  ════════════════════════════════════════ -->
+  <button id="chat-toggle" aria-label="Open portfolio assistant" aria-expanded="false" aria-controls="chat-window">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+  </button>
+
+  <div id="chat-window" class="hidden" role="dialog" aria-label="Portfolio assistant" aria-modal="true">
+    <div class="chat-header">
+      <div class="chat-avatar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        <span class="chat-online-dot"></span>
+      </div>
+      <div class="chat-header-text">
+        <h4>Khushi's Portfolio Assistant</h4>
+        <p>● Online</p>
+      </div>
+      <button id="chat-close" aria-label="Close chat">✕</button>
+    </div>
+
+    <div class="chat-messages" id="chat-messages" aria-live="polite">
+      <div class="chat-msg">
+        Hello! I'm Khushi's Portfolio Assistant. How can I help you learn about her work?
+      </div>
+
+      <div class="quick-questions">
+        <p class="quick-label">Quick questions:</p>
+        <button class="quick-btn" data-q="projects">What projects has she worked on?</button>
+        <button class="quick-btn" data-q="skills">What are her key PM skills?</button>
+        <button class="quick-btn" data-q="experience">Can you summarise her experience?</button>
+        <button class="quick-btn" data-q="contact">How can I contact her?</button>
+      </div>
+    </div>
+
+    <div class="chat-input-row">
+      <input type="text" id="chat-input" placeholder="Ask me something…" aria-label="Chat input" />
+      <button id="chat-send" aria-label="Send message">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
